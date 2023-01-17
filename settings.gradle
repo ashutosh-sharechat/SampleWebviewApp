@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "FirstDemoApp"
+include ':app'
+include ':mylibrary'
+include ':lib'
+include ':aars'
